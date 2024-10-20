@@ -1,4 +1,5 @@
 import Link from "next/link";
+import GoogleDriveViewer from "../components/GoogleDriveViewer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
           Go to docs
         </Link>
       </div>
+      <GoogleDriveViewer />
     </div>
   );
 }

@@ -1,4 +1,4 @@
-export default function Dashboard() {
+export default async function Dashboard() {
   return (
     <div className="container">
       <div className="card start-hero">
